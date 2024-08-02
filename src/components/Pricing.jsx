@@ -52,7 +52,7 @@ const Pricing = () => {
                 For Small Teams and Startups
               </p>
               <div className="mt-10 flex items-center gap-x-4">
-                <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">
+                <h4 className="flex-none text-sm font-semibold leading-6 text-amber-600">
                   What’s included
                 </h4>
                 <div className="h-px flex-auto bg-gray-100" />
@@ -95,7 +95,7 @@ const Pricing = () => {
                   </p>
                   <a
                     href="#"
-                    className="mt-10 block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    className="mt-10 block w-full rounded-md bg-amber-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-amber-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600"
                   >
                     Get Started
                   </a>
@@ -117,7 +117,7 @@ const Pricing = () => {
                 For Expanding Teams and Mid-Sized Businesses
               </p>
               <div className="mt-10 flex items-center gap-x-4">
-                <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">
+                <h4 className="flex-none text-sm font-semibold leading-6 text-amber-600">
                   What’s included
                 </h4>
                 <div className="h-px flex-auto bg-gray-100" />
@@ -160,7 +160,7 @@ const Pricing = () => {
                   </p>
                   <a
                     href="#"
-                    className="mt-10 block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    className="mt-10 block w-full rounded-md bg-amber-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-amber-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600"
                   >
                     Get Started
                   </a>
@@ -181,7 +181,7 @@ const Pricing = () => {
                 For Large Organizations and Enterprises
               </p>
               <div className="mt-10 flex items-center gap-x-4">
-                <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">
+                <h4 className="flex-none text-sm font-semibold leading-6 text-amber-600">
                   What’s included
                 </h4>
                 <div className="h-px flex-auto bg-gray-100" />
@@ -224,7 +224,7 @@ const Pricing = () => {
                   </p>
                   <a
                     href="#"
-                    className="mt-10 block w-full rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    className="mt-10 block w-full rounded-md bg-amber-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-amber-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600"
                   >
                     Get Started
                   </a>
