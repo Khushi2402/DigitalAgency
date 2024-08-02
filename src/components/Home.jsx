@@ -82,8 +82,6 @@ const people = [
 
 const Home = () => {
 
-    const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-
   return (
     <div className="bg-white">
       {/* Hero */}
@@ -97,14 +95,14 @@ const Home = () => {
               clipPath:
                 "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
             }}
-            className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+            className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#fbff80] to-[#89fca2] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
           />
         </div>
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               Announcing our next round of funding.{" "}
-              <a href="#" className="font-semibold text-indigo-600">
+              <a href="#" className="font-semibold text-amber-600">
                 <span aria-hidden="true" className="absolute inset-0" />
                 Read more <span aria-hidden="true">&rarr;</span>
               </a>
@@ -121,7 +119,7 @@ const Home = () => {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-amber-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600"
               >
                 Buy Now
               </a>
@@ -143,7 +141,7 @@ const Home = () => {
               clipPath:
                 "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
             }}
-            className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+            className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#fbff80] to-[#89fca2] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
           />
         </div>
       </div>
@@ -163,7 +161,7 @@ const Home = () => {
                       <dt className="inline font-semibold text-gray-900">
                         <feature.icon
                           aria-hidden="true"
-                          className="absolute left-1 top-1 h-5 w-5 text-indigo-600"
+                          className="absolute left-1 top-1 h-5 w-5 text-amber-600"
                         />
                         {feature.name}
                       </dt>{" "}
@@ -364,7 +362,7 @@ const Home = () => {
                     <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">
                       {person.name}
                     </h3>
-                    <p className="text-sm font-semibold leading-6 text-indigo-600">
+                    <p className="text-sm font-semibold leading-6 text-amber-600">
                       {person.role}
                     </p>
                   </div>
@@ -408,7 +406,7 @@ const Home = () => {
                   </p>
 
                   <a
-                    className="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
+                    className="mt-4 block rounded border border-amber-600 bg-amber-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-amber-600 focus:outline-none focus:ring active:text-amber-500 sm:mt-6"
                     href="#"
                   >
                     Get Started
@@ -564,7 +562,7 @@ const Home = () => {
                   </p>
 
                   <a
-                    className="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
+                    className="mt-4 block rounded border border-amber-600 bg-amber-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-amber-600 focus:outline-none focus:ring active:text-amber-500 sm:mt-6"
                     href="#"
                   >
                     Get Started
@@ -720,7 +718,7 @@ const Home = () => {
                   </p>
 
                   <a
-                    className="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
+                    className="mt-4 block rounded border border-amber-600 bg-amber-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-amber-600 focus:outline-none focus:ring active:text-amber-500 sm:mt-6"
                     href="#"
                   >
                     Get Started
@@ -880,11 +878,11 @@ const Home = () => {
                   required
                   placeholder="Enter your email"
                   autoComplete="email"
-                  className="min-w-0 flex-auto rounded-md border-0 bg-black/5 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-black/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                  className="min-w-0 flex-auto rounded-md border-0 bg-black/5 px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-black/10 focus:ring-2 focus:ring-inset focus:ring-amber-500 sm:text-sm sm:leading-6"
                 />
                 <button
                   type="submit"
-                  className="flex-none rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                  className="flex-none rounded-md bg-amber-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-amber-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-500"
                 >
                   Subscribe
                 </button>
